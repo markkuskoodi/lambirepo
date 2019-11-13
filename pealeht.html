@@ -22,15 +22,15 @@
             </ul>
         </div>
         <div class="body">
-            <div class="vasak">
+            <div class="col vasak">
                 <div class="slider-holder">
                     <span id="slider-image-1"></span>
                     <span id="slider-image-2"></span>
                     <span id="slider-image-3"></span>
                     <div class="image-holder">
-                        <img src="1.jpg" class="slider-image" />
-                        <img src="2.jpg" class="slider-image" />
-                        <img src="3.jpg" class="slider-image" />
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Hair_Salon_Stations.jpg" class="slider-image" />
+                        <img src="https://luxurylifestyleawards.com/wp/wp-content/uploads/2018/10/beauty20salon-1.png" class="slider-image" />
+                        <img src="http://www.tourismfredericton.ca/sites/default/files/styles/full_node/public/images/directory/shear_beauty_salon.jpg?itok=TRs3cMhU" class="slider-image" />
                     </div>
                     <div class="button-holder">
                         <a href="#slider-image-1" class="slider-change"></a>
@@ -39,7 +39,7 @@
                     </div>
                 </div>
             </div>
-            <div class="parem">
+            <div class="col parem">
                 <div id="map"></div>
                 <div class="kontakt">
                     <div class="aadress">Mingi 123C, Linna</div>
@@ -56,6 +56,9 @@
                 document.getElementById('map'), {zoom: 4, center: uluru});
                 var marker = new google.maps.Marker({position: uluru, map: map});
             }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYZNq9F8NGTY0nmONFLH4iJlV1MwNJQok&callback=initMap">
         </script>
     </body>
 </html>
